@@ -164,9 +164,6 @@ Beyond the specific success demonstrated here, the ARCADE framework represents a
 ### Warren-Cowley parameter
 
 A widely-used descriptor to capture the chemical short-range order of structure is the Warren-Cowley (W-C) parameter, which is defined as
-
-> (formal definition given in Supporting Information)
-
 where i and j denote atomic species, Pᵢⱼ is the conditional probability of encountering an atom of type j at a certain distance cutoff (or a given neighbor shell) from a central atom of type i, and cⱼ is the overall concentration of element j in the system.
 
 When αᵢⱼ = 0, the distribution of j around i follows the global composition, i.e., random mixing. Values αᵢⱼ < 0 indicate that j occurs less frequently near i than expected from randomness, i.e., j is depleted around i, i–j atom pairs tend to disperse; while αᵢⱼ > 0 signifies an overrepresentation of j near i, i.e., j is enriched around i, i–j atom pairs tend to aggregate. The deviation of αᵢⱼ from zero quantitatively characterizes the aggregation or dispersion propensity of an i–j pair at separation r.
@@ -174,9 +171,6 @@ When αᵢⱼ = 0, the distribution of j around i follows the global composition
 ### Local Density Deviation parameter
 
 The adsorption process on catalysts is strongly related to the local chemical environments near the adsorbates, especially the compositions of the local environments. To more directly and transparently capture short-range order in local elemental concentrations, we introduce, by analogy to the Warren–Cowley parameter, a new descriptor termed the Local Density Deviation (LDD) parameter. It is defined as
-
-> (formal definition given in Supporting Information)
-
 where j denotes the atomic species, cⱼ^local is the local concentration of element j within the chosen local region, and cⱼ is the overall concentration of element j in the system.
 
 When δⱼ = 0, the local density of element j is equal to its overall concentration. Positive values (δⱼ > 0) indicate that element j is locally depleted relative to its global concentration, whereas negative values (δⱼ < 0) signify local enrichment of j.
