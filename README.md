@@ -53,8 +53,8 @@ Finally, by aggregating data across diverse compositions and structures, the wor
 **Fig. 1. ARCADE workflow for data-driven nanoalloy catalysis.**  
 *(a)* Nanoparticle generation: Given only candidate compositions and a parent phase specified via our Digital Catalysis Platform (DigCat), the ApolloX multicomponent amorphous-structure modeling engine samples thermodynamically stable nanoalloy structures and returns atomistic nanoparticles. *(b)* Adsorption-site searching: On each nanoparticle, possible adsorption motifs of key intermediates are automatically enumerated and relaxed to obtain binding energies. *(c)* Selectivity analysis: Computed Gibbs free energies for competing intermediates (e.g., vs., , etc.) are cross-compared to map selectivity trends. *(d)* Theoretical activity: pH-dependent microkinetic modeling (implemented on the DigCat) translates adsorption energetics into predicted turnover frequencies and pH-dependent microkinetic volcano relationships. *(e)* Structure-property relationships: Aggregating results across composition/structure space enables interpretable maps that link local atomic motifs and elemental mixing patterns to stability, selectivity, and activity.
 
-> **Note**: Replace this with an actual image link when figures are ready, e.g.  
-> `![Fig. 1. ARCADE workflow for data-driven nanoalloy catalysis.](fig1.png)`
+![Fig1](https://github.com/user-attachments/assets/bb3367ff-233b-41aa-8cbe-760b598738be)
+
 
 ---
 
